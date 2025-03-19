@@ -31,7 +31,7 @@ def home_view(page: ft.Page):
     # Campo de entrada com estilo moderno
     name_field = ft.TextField(
         label="Digite uma frase",
-        hint_text="Ex.: Ada Lovelace",
+        hint_text="Ex.: Ada Lovelace é a primeira programadora",
         border_color=ft.Colors.WHITE24,
         cursor_color=ft.Colors.WHITE,
         color=ft.Colors.WHITE,
