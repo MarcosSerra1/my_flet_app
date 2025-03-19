@@ -16,7 +16,7 @@ def get_woman_info(phrase: str) -> str:
     name_patterns = {
         'ada lovelace': r'ada(?:\s+lovelace)?(?:\s+adaa)?(?:\s+love)?(?:\s+lovelece)?',
         'grace hopper': r'grace(?:\s+hopper)?(?:\s+holper)?(?:\s+gracee)?',
-        'katherine johnson': r'katherine(?:\s+johnson)?(?:\s+jhonsom)?(?:\s+kathrine)?',
+        'katherine johnson': r'katherine(?:\s+johnson)?(?:\s+jhonsom)?(?:\s+kathrine)?(?:\s+jhonson)?',
         'hedy lamarr': r'hedy(?:\s+lamarr)?(?:\s+lammar)?(?:\s+edi)?',
         'radia perlman': r'radia(?:\s+perlman)?(?:\s+radiaa)?(?:\s+perman)?'
     }
